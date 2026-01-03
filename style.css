@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    padding: 20px;
+    font-style: italic;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    color: rgb(175, 175, 175);
+    margin-top: 100px;
+}
+
+#fretboard{
+    display: grid;
+    grid-template-columns: repeat(13, 60px);
+    margin: 20px;
+    
+}
+
+.fret{
+    height: 60px;
+    border: 1px solid #333;
+    background: #eee;
+    cursor: pointer;
+}
+
+.fret:hover{
+    background: #ccc;
+}
+
+.fret:active{
+    background-color: #f0f0f0;
+}
+
+.fret.active{
+    background: #4a4a4a;
+}
