@@ -9,11 +9,23 @@ body{
     font-style: italic;
 }
 
-footer{
+footer, a{
     text-align: center;
     padding: 20px;
     color: rgb(175, 175, 175);
     margin-top: 100px;
+}
+
+a{
+    color: rgb(84, 170, 141);
+}
+
+a:hover{
+    color: rgb(147, 73, 147);
+}
+
+a:active{
+    color: turquoise;
 }
 
 #fretboard{
